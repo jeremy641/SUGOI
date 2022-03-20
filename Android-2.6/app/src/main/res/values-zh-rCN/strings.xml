@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- update this 3 keys and compile your code from here  -->
+    <!-- Set your  application ID-->
+
+    <!--General -->
+
+    <string name="Home">首页</string>
+    <string name="ManageThings">商家管理</string>
+    <string name="drawer_open">开启</string>
+    <string name="drawer_close">关闭</string>
+    <string name="search">搜寻</string>
+    <string name="options_exit">离开</string>
+    <string name="oups_no_item_found">哎呀!找不到项目</string>
+    <string name="about">关于我们</string>
+    <string name="Favoris">最爱</string>
+    <string name="About_us">关于我们</string>
+    <string name="Settings">设定</string>
+    <string name="MapStores">附近的商家</string>
+    <string name="Login">登入</string>
+    <string name="Logout">注销</string>
+    <string name="parameter">范围</string>
+    <string name="close">关闭</string>
+    <string name="EventLike">我的活动</string>
+    <string name="categories">类别</string>
+
+
+    <string name="my_stores">"我的商家</string>
+    <string name="my_events">"我的活动</string>
+
+    <string name="activate_merchant_permissions">开通商家权限</string>
+    <string name="vr_view">360环景</string>
+
+    <!--category--><![CDATA[
+    >
+    ]]>
+    <string name="Categories">类别</string>
+
+    <!--event-->
+
+
+    <!--notification & messages-->
+    <string name="check_network">检查您的网络</string>
+    <string name="network_error">没有连接到网络!点击以重载</string>
+    <string name="check_nework">检查你的网络联机</string>
+    <string name="enable_network">请在您的设备中启用网络</string>
+
+    <string name="editProfile">编辑个人资料</string>
+
+    <!--store-->
+    <string name="store_to_far_map">拉的太远了!无法显示路线</string>
+    <string name="store_call_error">电话功能无法使用</string>
+
+    <!--messages settings-->
+
+    <string name="settings_notifications">通知</string>
+    <string name="settings_app_infos">应用程序</string>
+
+
+    <!-- OFFERS -->
+    <string name="settings_notification_offers">收到特别优惠通知</string>
+    <string name="settings_notification_offers_title">优惠通知</string>
+
+
+    <!-- EVENTS -->
+    <string name="settings_notification_events">当您附近有活动时接收通知</string>
+    <string name="settings_notification_events_title">附近活动通知</string>
+
+    <!-- STORES -->
+    <string name="settings_notification_stores">当您附近有合作商店时收到通知</string>
+    <string name="settings_notification_stores_title">附近商店通知</string>
+
+
+    <!-- MESSENGER -->
+    <string name="settings_notification_messenger">有新对话消息时接收通知</string>
+    <string name="settings_notification_messenger_title">对话通知</string>
+
+    <!-- DISTANCE -->
+    <string name="settings_notification_distance_dis">%1$s %2$s</string>
+    <!-- APP_INFOS -->
+    <string name="settings_app_infos_title">应用程序版本</string>
+
+    <!--login & sign up-->
+
+    <string name="lessThan1km">少于1公里</string>
+    <string name="MoreThan2km">2公里以上</string>
+    <string name="MoreThan5km">5公里以上</string>
+    <string name="MoreThan10km">10公里以上</string>
+
+    <string name="description">详细信息</string>
+
+    <string name="permission_disabled_notice">此应用程序需要使用位置权限，如果您取消此权限，您随后可能会发现操作问题</string>
+    <string name="save">储存</string>
+    <string name="find_new_neighbours">寻找附近的新好友</string>
+
+
+    <string name="youHaveDiscussions">你有 %1$d 讨论 %2$d 对话讯息</string>
+    <string name="youHaveMessage">你有新的对话讯息</string>
+    <string name="offers">促销品项</string>
+    <string name="reviews">%1$s 个评论 </string>
+    <string name="noOffers">目前没有促销品项</string>
+    <string name="noReviews">目前没有评论</string>
+    <string name="addReview">增加评论</string>
+    <string name="settings">设定</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="error">哎呀!出错了!</string>
+
+    <string name="selectRating">请在1星至5星之间评分</string>
+    <string name="pleaseWriteReview" translatable="false">请撰写评论</string>
+    <string name="writeReview">撰写评论</string>
+    <string name="thankYou">谢谢您!</string>
+
+    <string name="searchOn">搜寻</string>
+
+    <string name="email">电子邮件</string>
+
+
+    <string name="people_around_me">在我周围的好友</string>
+    <string name="promo"> </string>
+
+
+    <string name="fileUploading">上传中...</string>
+
+    <string name="rateUs">谢谢您的支持与鼓励，如果喜欢我们的服务的话，就在Google play留个好评吧!</string>
+    <string name="rateIt">评价</string>
+
+    <string name="you_ve_already_reviewd">您将会新增您的评论</string>
+
+    <string name="shared_text">%1$s - 只有在 %2$s \n %3$s</string>
+    <string name="reload">重载</string>
+    <string name="mail">邮件</string>
+    <string name="today">今天</string>
+    <string name="Send_message">传送讯息...</string>
+    <string name="version">版本 :</string>
+    <string name="phone">手机</string>
+    <string name="featured">为您精选</string>
+    <string name="app_privacy">隐私政策</string>
+    <string name="app_term_of_uses">使用条款</string>
+
+
+    <string name="offer_start_at">开始于 %1$s</string>
+    <string name="offer_end_at">结束于 %1$s</string>
+    <string name="offer_ended_at">已结束于 %1$s</string>
+
+
+    <string name="nbr_stores_message">%1$s 个商家</string>
+
+
+    <string name="tab_stores">商家</string>
+    <string name="tab_offers">促销品项</string>
+    <string name="tab_events">活动</string>
+    <string name="your_destination">您的目的地</string>
+    <string name="refresh">刷新页面</string>
+    <string name="no_users">没有使用者</string>
+    <string name="settings_notification_upcomingevent">当有新发生的活动时收到通知</string>
+    <string name="settings_notification_upcomingevent_title">新发生的活动通知</string>
+
+
+    <string name="upComingEventMessage">新发生的活动</string>
+    <string name="upComingEventsMessage">活动将要开始</string>
+    <string name="upcomingTag">将要开始</string>
+    <string name="myUpComingEvents">即将开始的活动</string>
+    <string name="chat_notification_title">您有一则新对话讯息</string>
+    <string name="authentification_error_msg">用户名及密码不正确</string>
+    <string name="gallery">店家相册</string>
+    <string name="noImages">没有图片</string>
+    <string name="enable_network_map_direction">请启用您的网络</string>
+    <string name="enable_gps_map_direction">请先启用您的GPS</string>
+
+
+    <string name="skip">跳过</string>
+    <string name="start">开始</string>
+    <string name="intro_slide_1_title">快速找到餐厅!</string>
+    <string name="intro_slide_1_description">尝试附近不同的餐厅，地图将带领您获得最优惠的品项选择。 </string>
+    <string name="intro_slide_2_title">即将开始的活动</string>
+    <string name="intro_slide_2_description">参加一些您最喜欢的商家的活动，参与并获得即将举行的活动的推送通知。</string>
+    <string name="intro_slide_3_title">附近的商家</string>
+    <string name="intro_slide_3_description">优惠、促销、折扣由您筛选，试着探索附近的每个商家吧!</string>
+    <string name="intro_slide_4_title">请评价您心目中最好的商店</string>
+    <string name="intro_slide_4_description">在离开之前留下您的评价吧!</string>
+    <string name="alert_gps_dialog">您需要开启位置权限才能使用该应用程序，请重试并点击确定。</string>
+    <string name="confirm_gps_relaunch">重试一次</string>
+    <string name="next">下一个</string>
+    <string name="block">封锁该用户</string>
+    <string name="unblock">解除封锁</string>
+    <string name="less_than_1_km">少于1公里</string>
+    <string name="noDiscussions">目前尚无对话</string>
+    <string name="stores_near_by">在附近的商家</string>
+    <string name="searching_for_stores_bearby">搜索附近的商家</string>
+    <string name="title_activity_v2_main" translatable="false">V2MainActivity</string>
+    <string name="Account">账号</string>
+    <string name="Notification">通知</string>
+    <string name="price">价格</string>
+    <string name="discount">折扣</string>
+    <string name="photo">张相片</string>
+    <string name="editPassword">设置密码</string>
+    <string name="navigation_drawer_open">开启导航</string>
+    <string name="navigation_drawer_close">关闭导航</string>
+    <string name="stores_nearby">附近的商家</string>
+    <string name="show_more">显示全部</string>
+    <string name="offers_nearby">附近的促销品项</string>
+    <string name="events_nearby">附近的活动</string>
+    <string name="people_nearby">附近的人们</string>
+    <string name="enter_full_name">请输入全名(例如:王 小明)</string>
+    <string name="full_name">全名</string>
+    <string name="enter_email">请输入E-mail</string>
+    <string name="enter_login">请输入账号</string>
+    <string name="login">登入</string>
+    <string name="login_required">此操作需要身分验证</string>
+    <string name="authentication">身分验证</string>
+    <string name="open_time">开启</string>
+    <string name="open_now">现在开启</string>
+    <string name="closed">已关闭</string>
+    <string name="join">参加</string>
+    <string name="call">通话</string>
+    <string name="unjoin">已参加</string>
+    <string name="select_category">选择类别</string>
+    <string name="discount_less_than_25" translatable="false">0-25%</string>
+    <string name="discount_less_than_50" translatable="false">25-50%</string>
+    <string name="discount_less_than_75" translatable="false">50-75%</string>
+    <string name="discount_less_than_100" translatable="false">75-100%</string>
+    <string name="write_name_address_city">填写姓名、住址、城市</string>
+    <string name="website">网站</string>
+    <string name="begin_date">开始日期</string>
+    <string name="open_only">目前为营业状态</string>
+    <string name="order_by_recent">最近的</string>
+    <string name="order_by_geo">选择地点</string>
+    <string name="location">位置</string>
+    <string name="notify_me">提醒我</string>
+    <string name="remind_me">提醒我</string>
+    <string name="remind_me_msg">通过点击提醒我，您将收到此活动的通知</string>
+    <string name="stores_result">商家查询结果</string>
+    <string name="events_result">活动查询结果</string>
+    <string name="offers_result">促销品项查询结果</string>
+    <string name="recent_offers">最近的促销品项</string>
+    <string name="current_location">当前位置</string>
+    <string name="price_one_number" translatable="false">$</string>
+    <string name="price_two_numbers" translatable="false">$$</string>
+    <string name="price_three_numbers" translatable="false">$$$</string>
+    <string name="price_four_numbers" translatable="false">$$$$</string>
+    <string name="radius">半径</string>
+    <string name="distance">距离</string>
+    <string name="opening_time_label">营业时间</string>
+    <string name="top_categories">热门类别</string>
+    <string name="notifications">通知</string>
+    <string name="inbox">聊天室</string>
+    <string name="network_not_available">无法从服务器加载数据</string>
+    <string name="retry">重试</string>
+    <string name="try_a_refresh_the_page">尝试刷新页面...</string>
+    <string name="no_feed_yet">寻找不到任何数据ﾟ(ﾟ´ω`ﾟ)ﾟ｡</string>
+    <string name="no_message_yet">尚无对话消息</string>
+    <string name="no_message_inbox">您的聊天室中还没有消息！ 开始与您的朋友聊天</string>
+    <string name="remove_from_bookmark">从书签中删除</string>
+    <string name="error_try_later" translatable="false">出了点问题，请稍后再试！</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="enter_password">输入密码</string>
+    <string name="business_manager">商家管理</string>
+    <string name="login_first">请先登入</string>
+    <string name="do_you_want_to_change_your_location">您想改变您的位置吗？</string>
+    <string name="search_placeholder">输入一些商家吧!</string>
+
+
+    <string name="dp_view_store_on">在应用程序上打开商店</string>
+    <string name="dp_view_offer_on">在应用程序上打开促销品项</string>
+    <string name="dp_view_event_on">在应用程序上打开活动</string>
+
+
+    <string name="_DP_HOST_NAME" translatable="false">@string/DP_HOST_NAME</string>
+    <string name="_DP_STORE_MESSAGE" translatable="false">@string/DP_STORE_MESSAGE</string>
+    <string name="_DP_OFFER_MESSAGE" translatable="false">@string/DP_OFFER_MESSAGE</string>
+    <string name="_DP_EVENT_MESSAGE" translatable="false">@string/DP_EVENT_MESSAGE</string>
+
+    <!--Set your google map key-->
+    <string name="map_api_key0" translatable="false">@string/map_api_key</string>
+    <string name="login_create_account">登入/创建您的帐号</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="sign_up">注册</string>
+    <string name="new_password">新的密码</string>
+    <string name="have_an_account">已经拥有账号?</string>
+
+
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="redirected_to">\"复位向到 \"</string>
+    <string name="people_near_by">附近的人们</string>
+    <string name="loading">载入中...</string>
+    <string name="keep_current_location">保持目前位置</string>
+    <string name="change_location">更换地点</string>
+
+    <string name="your_order_has_been_sent_successfully">您的预订已成功发送！</string>
+    <string name="complet_required_fileds">请务必先填写必填项目！</string>
+    <string name="location_format_not_correct">位置格式不正确</string>
+    <string name="location_address_not_correct">位置地址为空</string>
+    <string name="click_marker_to_pick_location">点击右侧标记以选择您的位置</string>
+
+
+    <string name="promotional_video">宣传片</string>
+    <string name="checkout">结帐</string>
+    <string name="detail">详细信息</string>
+    <string name="confirm">确认</string>
+    <string name="payment">付款</string>
+    <string name="done">完成</string>
+    <string name="payment_error">支付错误</string>
+    <string name="delivery_fees">运费</string>
+    <string name="confirm_order">确认预订</string>
+    <string name="confirm_payment">确认付款</string>
+    <string name="order_details">优惠券抢购</string>
+    <string name="required_field">必填项目</string>
+    <string name="find_my_place">找到我的位置</string>
+    <string name="something_went_wrong">出了点问题，请稍后再试！</string>
+    <string name="order_detail_checkout">订单详情</string>
+    <string name="pay_now">现在付款</string>
+    <string name="booking_id">预订ID : %1$d</string>
+    <string name="product_qty">数量 : %1$d</string>
+    <string name="basic_detail">基本信息</string>
+    <string name="item_s">个服务</string>
+    <string name="taxes">税费</string>
+    <string name="total">总计</string>
+    <string name="booking_status">订单状态</string>
+    <string name="track_my_order">追踪我的订单</string>
+    <string name="booking_detail">服务</string>
+    <string name="order_successfuly_updated">订单更新成功</string>
+    <string name="cancel">取消</string>
+    <string name="OK">好的!</string>
+    <string name="update_order_status">更新订单状态</string>
+    <string name="report">报告</string>
+    <string name="orders">订单</string>
+    <string name="book_btn">抢购优惠券</string>
+    <string name="order_btn">确认</string>
+    <string name="track">追踪</string>
+    <string name="order_detail_btn">订单详情</string>
+    <string name="service_booking">服务</string>
+    <string name="delivery_product">预订</string>
+    <string name="beneficiaries">受益人</string>
+    <string name="reservation_detail">预订详情</string>
+    <string name="pickup_from">商家详情</string>
+    <string name="store">商家</string>
+    <string name="address">地址</string>
+    <string name="more_info">更多信息</string>
+    <string name="go_to">拜访店家</string>
+    <string name="booking">我的优惠券</string>
+    <string name="Notifs">警告</string>
+    <string name="Distance">距离单位</string>
+    <string name="distance_100">+ 100 %1$s</string>
+    <string name="Date">日期</string>
+    <string name="bookingid">订单ID</string>
+    <string name="no_service_found_for_this_store">非常抱歉，这家商店目前尚未提供此项服务</string>
+    <string name="discover_stores_nearby">发现附近的商家</string>
+    <string name="top_picked_for_you">评分最高的商店</string>
+    <string name="variant_additional_cost">%1$s</string>
+    <string name="subtotal">小计</string>
+    <string name="no_service_found">未找到服务</string>
+    <string name="Nulll">""</string>
+    <string name="qr_scan">QR扫描器</string>
+    <string name="system_info_view">显示优惠券讯息</string>
+    <string name="coupon_info_view">显示过刷状况</string>
+    <string name="chart_anal">图表分析</string>
+
+
+
+
+
+    <string-array name="distanceUnit">
+        <item>英里</item>
+        <item>公里</item>
+    </string-array>
+
+
+</resources>

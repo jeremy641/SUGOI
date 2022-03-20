@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\v2_fragment_profile_edit.xml",
+        "source": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\src\\main\\res\\layout\\v2_fragment_profile_edit.xml"
+    },
+    {
+        "merged": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\v2_fragment_profile_password.xml",
+        "source": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\src\\main\\res\\layout\\v2_fragment_profile_password.xml"
+    },
+    {
+        "merged": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\v2_fragment_profile_signup.xml",
+        "source": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\src\\main\\res\\layout\\v2_fragment_profile_signup.xml"
+    },
+    {
+        "merged": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\v2_store_gallery_horizontal.xml",
+        "source": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\src\\main\\res\\layout\\v2_store_gallery_horizontal.xml"
+    },
+    {
+        "merged": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\v2_fragment_custom_search.xml",
+        "source": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\src\\main\\res\\layout\\v2_fragment_custom_search.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.SUGOI.apps.sugoi",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 252,
+      "versionName": "2.5.2",
+      "enabled": true,
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}

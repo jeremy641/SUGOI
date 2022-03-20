@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187047884328",
+    "project_id": "sugoitest01",
+    "storage_bucket": "sugoitest01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187047884328:android:0642461ebf14c58ec1271d",
+        "android_client_info": {
+          "package_name": "com.SUGOI.apps.sugoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187047884328-t5o4s6rls4s7hd6vu64d58sq3al40im4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhdM-ltpC8Cmb8BaikEvAgTizWXr2j3pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187047884328-t5o4s6rls4s7hd6vu64d58sq3al40im4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

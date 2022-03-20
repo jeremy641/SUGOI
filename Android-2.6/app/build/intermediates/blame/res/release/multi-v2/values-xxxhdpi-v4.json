@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\SUGOI project TEST\\TEST05\\Android-2.6\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\db7e37d43125352deb9c5c56a280a66e\\jetified-crystalrangeseekbar-1.1.3\\res\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,156,200",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "101,151,195,238"
+                    }
+                }
+            ]
+        }
+    ]
+}

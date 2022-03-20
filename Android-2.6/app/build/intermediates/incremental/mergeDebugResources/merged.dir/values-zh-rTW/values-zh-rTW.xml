@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="distanceUnit">
+        <item>英里</item>
+        <item>公里</item>
+    </string-array>
+    <string name="About_us">關於我們</string>
+    <string name="Account">帳號</string>
+    <string name="Categories">類別</string>
+    <string name="Date">日期</string>
+    <string name="Distance">距離單位</string>
+    <string name="EventLike">我的活動</string>
+    <string name="Favoris">最愛</string>
+    <string name="Home">首頁</string>
+    <string name="Login">登入</string>
+    <string name="Logout">登出</string>
+    <string name="ManageThings">商家管理</string>
+    <string name="MapStores">附近的商家</string>
+    <string name="MoreThan10km">10公里以上</string>
+    <string name="MoreThan2km">2公里以上</string>
+    <string name="MoreThan5km">5公里以上</string>
+    <string name="Notification">通知</string>
+    <string name="Notifs">警告</string>
+    <string name="Nulll">""</string>
+    <string name="OK">好的!</string>
+    <string name="Send_message">傳送訊息...</string>
+    <string name="Settings">設定</string>
+    <string name="_DP_EVENT_MESSAGE" translatable="false">@string/DP_EVENT_MESSAGE</string>
+    <string name="_DP_HOST_NAME" translatable="false">@string/DP_HOST_NAME</string>
+    <string name="_DP_OFFER_MESSAGE" translatable="false">@string/DP_OFFER_MESSAGE</string>
+    <string name="_DP_STORE_MESSAGE" translatable="false">@string/DP_STORE_MESSAGE</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"關閉"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"開啟"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 鍵"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格鍵"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="about">關於我們</string>
+    <string name="activate_merchant_permissions">開通商家權限</string>
+    <string name="addReview">增加評論</string>
+    <string name="address">地址</string>
+    <string name="alert_gps_dialog">您需要開啟位置權限才能使用該應用程序，請重試並點擊確定。</string>
+    <string name="app_privacy">隱私政策</string>
+    <string name="app_term_of_uses">使用條款</string>
+    <string name="authentication">身分驗證</string>
+    <string name="authentification_error_msg">註冊完成! 請重新登入</string>
+    <string name="basic_detail">基本資訊</string>
+    <string name="begin_date">開始日期</string>
+    <string name="beneficiaries">受益人</string>
+    <string name="block">封鎖該用戶</string>
+    <string name="book_btn">搶購優惠券</string>
+    <string name="booking">我的優惠券</string>
+    <string name="booking_detail">服務</string>
+    <string name="booking_id">預訂ID : %1$d</string>
+    <string name="booking_status">訂單狀態</string>
+    <string name="bookingid">訂單ID</string>
+    <string name="business_manager">商家管理</string>
+    <string name="call">通話</string>
+    <string name="cancel">取消</string>
+    <string name="categories">類別</string>
+    <string name="change_location">更換地點</string>
+    <string name="chart_anal">圖表分析</string>
+    <string name="chat_notification_title">您有一則新對話訊息</string>
+    <string name="check_network">檢查您的網路</string>
+    <string name="check_nework">檢查你的網路連線</string>
+    <string name="checkout">結帳</string>
+    <string name="click_marker_to_pick_location">點擊右側標記以選擇您的位置</string>
+    <string name="close">關閉</string>
+    <string name="closed">已關閉</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安裝"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的裝置並未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"取得 Google Play 服務"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 服務可用性"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 服務發生錯誤"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」無法存取 Google Play 服務，請再試一次。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的裝置不支援 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必須更新 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」所需的 Google Play 服務正在更新。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必須使用新版 Google Play 服務。該服務稍後就會自動更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手機上開啟"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
+    <string name="complet_required_fileds">請務必先填寫必填項目！</string>
+    <string name="confirm">確認</string>
+    <string name="confirm_gps_relaunch">重試一次</string>
+    <string name="confirm_order">確認預訂</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="confirm_payment">確認付款</string>
+    <string name="coupon_info_view">顯示過刷狀況</string>
+    <string name="current_location">當前位置</string>
+    <string name="delivery_fees">運費</string>
+    <string name="delivery_product">預訂</string>
+    <string name="description">詳細資訊</string>
+    <string name="detail">詳細資訊</string>
+    <string name="discount">折扣</string>
+    <string name="discount_less_than_100" translatable="false">75-100%</string>
+    <string name="discount_less_than_25" translatable="false">0-25%</string>
+    <string name="discount_less_than_50" translatable="false">25-50%</string>
+    <string name="discount_less_than_75" translatable="false">50-75%</string>
+    <string name="discover_stores_nearby">發現附近的商家</string>
+    <string name="distance">距離</string>
+    <string name="distance_100">+ 100 %1$s</string>
+    <string name="do_you_want_to_change_your_location">您想改變您的位置嗎？</string>
+    <string name="done">完成</string>
+    <string name="dp_view_event_on">在應用程序上打開活動</string>
+    <string name="dp_view_offer_on">在應用程序上打開促銷品項</string>
+    <string name="dp_view_store_on">在應用程序上打開商店</string>
+    <string name="drawer_close">關閉</string>
+    <string name="drawer_open">開啟</string>
+    <string name="editPassword">設置密碼</string>
+    <string name="editProfile">編輯個人資料</string>
+    <string name="email">電子郵件</string>
+    <string name="enable_gps_map_direction">請先啟用您的GPS</string>
+    <string name="enable_network">請在您的設備中啟用網路</string>
+    <string name="enable_network_map_direction">請啟用您的網路</string>
+    <string name="enter_email">請輸入E-mail</string>
+    <string name="enter_full_name">請輸入全名(例如:王 小明)</string>
+    <string name="enter_login">請輸入帳號</string>
+    <string name="enter_password">輸入密碼</string>
+    <string name="error">哎呀!出錯了!</string>
+    <string name="error_try_later" translatable="false">出了點問題，請稍後再試！</string>
+    <string name="events_nearby">附近的活動</string>
+    <string name="events_result">活動查詢結果</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"其他"</string>
+    <string name="featured">為您精選</string>
+    <string name="fileUploading">上傳中...</string>
+    <string name="find_my_place">找到我的位置</string>
+    <string name="find_new_neighbours">尋找附近的新好友</string>
+    <string name="forget_password">忘記密碼?</string>
+    <string name="friday">星期五</string>
+    <string name="full_name">全名</string>
+    <string name="gallery">店家相冊</string>
+    <string name="go_to">拜訪店家</string>
+    <string name="have_an_account">已經擁有帳號?</string>
+    <string name="inbox">聊天室</string>
+    <string name="intro_slide_1_description">嘗試附近不同的餐廳，地圖將帶領您獲得最優惠的品項選擇。 </string>
+    <string name="intro_slide_1_title">快速找到餐廳!</string>
+    <string name="intro_slide_2_description">參加一些您最喜歡的商家的活動，參與並獲得即將舉行的活動的推送通知。</string>
+    <string name="intro_slide_2_title">即將開始的活動</string>
+    <string name="intro_slide_3_description">優惠、促銷、折扣由您篩選，試著探索附近的每個商家吧!</string>
+    <string name="intro_slide_3_title">附近的商家</string>
+    <string name="intro_slide_4_description">在離開之前留下您的評價吧!</string>
+    <string name="intro_slide_4_title">請評價您心目中最好的商店</string>
+    <string name="item_s">個服務</string>
+    <string name="join">參加</string>
+    <string name="keep_current_location">保持目前位置</string>
+    <string name="lessThan1km">少於1公里</string>
+    <string name="less_than_1_km">少於1公里</string>
+    <string name="loading">載入中...</string>
+    <string name="location">位置</string>
+    <string name="location_address_not_correct">位置地址為空</string>
+    <string name="location_format_not_correct">位置格式不正確</string>
+    <string name="login">登入</string>
+    <string name="login_create_account">登入/創建您的帳號</string>
+    <string name="login_first">請先登入</string>
+    <string name="login_required">此操作需要身分驗證</string>
+    <string name="mail">郵件</string>
+    <string name="map_api_key0" translatable="false">@string/map_api_key</string>
+    <string name="mdtp_date_v1_monthyear">yyyy年M月</string>
+    <string name="mdtp_date_v2_daymonthyear">M月dd日EEE</string>
+    <string msgid="3968620852217927702" name="mdtp_day_picker_description">"日期網格 (按月顯示)"</string>
+    <string msgid="6908431551612331381" name="mdtp_deleted_key">"已刪除 <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string msgid="7007948707597430919" name="mdtp_done_label">"完成"</string>
+    <string msgid="7586639618712934060" name="mdtp_hour_picker_description">"小時數循環滑桿"</string>
+    <string msgid="2674929164900463786" name="mdtp_item_is_selected">"已選取 <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="6024811202872705251" name="mdtp_minute_picker_description">"分鐘數循環滑桿"</string>
+    <string msgid="3973338219107019769" name="mdtp_select_day">"選取月份和日期"</string>
+    <string msgid="7651068754188418859" name="mdtp_select_hours">"選取小時數"</string>
+    <string msgid="8327182090226828481" name="mdtp_select_minutes">"選取分鐘數"</string>
+    <string msgid="2603330600102539372" name="mdtp_select_year">"選取年份"</string>
+    <string msgid="6963340404644587098" name="mdtp_year_picker_description">"年份清單"</string>
+    <string name="monday">星期一</string>
+    <string name="more_info">更多資訊</string>
+    <string name="myUpComingEvents">即將開始的活動</string>
+    <string name="my_events">"我的活動</string>
+    <string name="my_stores">"我的商家</string>
+    <string name="navigation_drawer_close">關閉導航</string>
+    <string name="navigation_drawer_open">開啟導航</string>
+    <string name="nbr_stores_message">%1$s 個商家</string>
+    <string name="network_error">沒有連接到網路!點擊以重新載入</string>
+    <string name="network_not_available">無法從服務器加載數據</string>
+    <string name="new_password">新的密碼</string>
+    <string name="next">下一個</string>
+    <string name="noDiscussions">目前尚無對話</string>
+    <string name="noImages">沒有圖片</string>
+    <string name="noOffers">目前沒有促銷品項</string>
+    <string name="noReviews">目前沒有評論</string>
+    <string name="no_feed_yet">尋找不到任何資料ﾟ(ﾟ´ω`ﾟ)ﾟ｡</string>
+    <string name="no_message_inbox">您的聊天室中還沒有消息！ 開始與您的朋友聊天</string>
+    <string name="no_message_yet">尚無對話消息</string>
+    <string name="no_service_found">未找到服務</string>
+    <string name="no_service_found_for_this_store">非常抱歉，這家商店目前尚未提供此項服務</string>
+    <string name="no_users">沒有使用者</string>
+    <string name="notifications">通知</string>
+    <string name="notify_me">提醒我</string>
+    <string name="offer_end_at">結束於 %1$s</string>
+    <string name="offer_ended_at">已結束於 %1$s</string>
+    <string name="offer_start_at">開始於 %1$s</string>
+    <string name="offers">促銷品項</string>
+    <string name="offers_nearby">附近的促銷品項</string>
+    <string name="offers_result">促銷品項查詢結果</string>
+    <string name="open_now">現在開啟</string>
+    <string name="open_only">目前為營業狀態</string>
+    <string name="open_time">開啟</string>
+    <string name="opening_time_label">營業時間</string>
+    <string name="options_exit">離開</string>
+    <string name="order_btn">確認</string>
+    <string name="order_by_geo">選擇地點</string>
+    <string name="order_by_recent">最近的</string>
+    <string name="order_detail_btn">訂單詳情</string>
+    <string name="order_detail_checkout">訂單詳情</string>
+    <string name="order_details">優惠券搶購</string>
+    <string name="order_successfuly_updated">訂單更新成功</string>
+    <string name="orders">訂單</string>
+    <string name="oups_no_item_found">哎呀!找不到項目</string>
+    <string name="parameter">範圍</string>
+    <string name="pay_now">現在付款</string>
+    <string name="payment">付款</string>
+    <string name="payment_error">支付錯誤</string>
+    <string name="people_around_me">在我周圍的好友</string>
+    <string name="people_near_by">附近的人們</string>
+    <string name="people_nearby">附近的人們</string>
+    <string name="permission_disabled_notice">此應用程序需要使用位置權限，如果您取消此權限，您隨後可能會發現操作問題</string>
+    <string name="permission_name_calendar">日曆</string>
+    <string name="permission_name_camera">相機</string>
+    <string name="permission_name_contacts">通訊錄</string>
+    <string name="permission_name_location">位置信息</string>
+    <string name="permission_name_microphone">麥克風</string>
+    <string name="permission_name_phone">電話</string>
+    <string name="permission_name_sensors">身體感測器</string>
+    <string name="permission_name_sms">簡訊</string>
+    <string name="permission_name_storage">存儲空間</string>
+    <string name="phone">手機</string>
+    <string name="photo">張相片</string>
+    <string name="pickup_from">商家詳情</string>
+    <string name="places_autocomplete_clear_button">清除搜尋</string>
+    <string name="places_autocomplete_label">挑選地點</string>
+    <string name="places_autocomplete_no_results_for_query">沒有與「%1$s」相符的搜尋結果</string>
+    <string name="places_autocomplete_search_hint">搜尋</string>
+    <string name="places_cancel">取消</string>
+    <string name="places_powered_by_google">Google 技術提供</string>
+    <string name="places_search_error">無法載入搜尋結果。</string>
+    <string name="places_try_again">再試一次</string>
+    <string name="pleaseWriteReview" translatable="false">請撰寫評論</string>
+    <string name="price">價格</string>
+    <string name="price_four_numbers" translatable="false">$$$$</string>
+    <string name="price_one_number" translatable="false">$</string>
+    <string name="price_three_numbers" translatable="false">$$$</string>
+    <string name="price_two_numbers" translatable="false">$$</string>
+    <string name="product_qty">數量 : %1$d</string>
+    <string name="promo"> </string>
+    <string name="promotional_video">宣傳片</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="qr_scan">QR掃描器</string>
+    <string name="radius">半徑</string>
+    <string name="rateIt">評價</string>
+    <string name="rateUs">謝謝您的支持與鼓勵，如果喜歡我們的服務的話，就在Google play留個好評吧!</string>
+    <string name="recent_offers">最近的促銷品項</string>
+    <string name="redirected_to">\"重定向到 \"</string>
+    <string name="refresh">刷新頁面</string>
+    <string name="reload">重新載入</string>
+    <string name="remind_me">提醒我</string>
+    <string name="remind_me_msg">通過點擊提醒我，您將收到此活動的通知</string>
+    <string name="remove_from_bookmark">從書籤中刪除</string>
+    <string name="report">報告</string>
+    <string name="required_field">必填項目</string>
+    <string name="reservation_detail">預訂詳情</string>
+    <string name="retry">重試</string>
+    <string name="reviews">%1$s 個評論 </string>
+    <string msgid="368094699078615544" name="s1">"儲存圖片"</string>
+    <string msgid="4550830452390689489" name="s2">"要允許廣告將圖片儲存在相片庫中嗎？"</string>
+    <string msgid="2435407834265420668" name="s3">"接受"</string>
+    <string msgid="9167523597401839819" name="s4">"拒絕"</string>
+    <string msgid="1566682516266724847" name="s5">"建立日曆活動"</string>
+    <string msgid="5996672174517137271" name="s6">"要允許廣告建立日曆活動嗎？"</string>
+    <string msgid="7163549807207034258" name="s7">"測試廣告"</string>
+    <string name="saturday">星期六</string>
+    <string name="save">儲存</string>
+    <string name="search">搜尋</string>
+    <string name="searchOn">搜尋</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string name="search_placeholder">輸入一些商家吧!</string>
+    <string name="searching_for_stores_bearby">搜索附近的商家</string>
+    <string name="selectRating">請在1星至5星之間評分</string>
+    <string name="select_category">選擇類別</string>
+    <string name="service_booking">服務</string>
+    <string name="settings">設定</string>
+    <string name="settings_app_infos">應用程式</string>
+    <string name="settings_app_infos_title">應用程式版本</string>
+    <string name="settings_notification_distance_dis">%1$s %2$s</string>
+    <string name="settings_notification_events">當您附近有活動時接收通知</string>
+    <string name="settings_notification_events_title">附近活動通知</string>
+    <string name="settings_notification_messenger">有新對話消息時接收通知</string>
+    <string name="settings_notification_messenger_title">對話通知</string>
+    <string name="settings_notification_offers">收到特別優惠通知</string>
+    <string name="settings_notification_offers_title">優惠通知</string>
+    <string name="settings_notification_stores">當您附近有合作商店時收到通知</string>
+    <string name="settings_notification_stores_title">附近商店通知</string>
+    <string name="settings_notification_upcomingevent">當有新發生的活動時收到通知</string>
+    <string name="settings_notification_upcomingevent_title">新發生的活動通知</string>
+    <string name="settings_notifications">通知</string>
+    <string name="shared_text">%1$s - 只有在 %2$s \n %3$s</string>
+    <string name="show_more">顯示全部</string>
+    <string name="sign_up">註冊</string>
+    <string name="skip">跳過</string>
+    <string name="something_went_wrong">出了點問題，請稍後再試！</string>
+    <string name="start">開始</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="store">商家</string>
+    <string name="store_call_error">電話功能無法使用</string>
+    <string name="store_to_far_map">拉的太遠了!無法顯示路線</string>
+    <string name="stores_near_by">在附近的商家</string>
+    <string name="stores_nearby">附近的商家</string>
+    <string name="stores_result">商家查詢結果</string>
+    <string name="subtotal">小計</string>
+    <string name="sunday">星期日</string>
+    <string name="system_info_view">顯示優惠券訊息</string>
+    <string name="tab_events">活動</string>
+    <string name="tab_offers">促銷品項</string>
+    <string name="tab_stores">商家</string>
+    <string name="taxes">稅費</string>
+    <string name="thankYou">謝謝您!</string>
+    <string name="thursday">星期四</string>
+    <string name="title_activity_v2_main" translatable="false">V2MainActivity</string>
+    <string name="today">今天</string>
+    <string name="top_categories">熱門類別</string>
+    <string name="top_picked_for_you">評分最高的商店</string>
+    <string name="total">總計</string>
+    <string name="track">追蹤</string>
+    <string name="track_my_order">追蹤我的訂單</string>
+    <string name="try_a_refresh_the_page">嘗試刷新頁面...</string>
+    <string name="tuesday">星期二</string>
+    <string name="unblock">解除封鎖</string>
+    <string name="unjoin">已參加</string>
+    <string name="upComingEventMessage">新發生的活動</string>
+    <string name="upComingEventsMessage">活動將要開始</string>
+    <string name="upcomingTag">將要開始</string>
+    <string name="update_order_status">更新訂單狀態</string>
+    <string name="variant_additional_cost">%1$s</string>
+    <string name="variant_additional_quantity">剩下%1$s張</string>
+    <string name="variant_additional_time">剩下%1$s小時</string>
+    <string name="version">版本 :</string>
+    <string name="vr_view">360環景</string>
+    <string name="website">網站</string>
+    <string name="wednesday">星期三</string>
+    <string name="writeReview">撰寫評論</string>
+    <string name="write_name_address_city">填寫姓名、住址、城市</string>
+    <string name="youHaveDiscussions">你有 %1$d 討論 %2$d 對話訊息</string>
+    <string name="youHaveMessage">你有新的對話訊息</string>
+    <string name="you_ve_already_reviewd">您將會新增您的評論</string>
+    <string name="your_destination">您的目的地</string>
+    <string name="your_order_has_been_sent_successfully">您的預訂已成功發送！</string>
+    <string name="zxing_app_name">條碼掃描器</string>
+    <string name="zxing_button_ok">確定</string>
+    <string name="zxing_msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string>
+    <string name="zxing_msg_default_status">將條碼置於鏡頭範圍內以進行掃描。</string>
+</resources>

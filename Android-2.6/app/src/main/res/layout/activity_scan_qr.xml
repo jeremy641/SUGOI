@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_message_layout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/scanQR_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:title="SUGOI"
+        app:titleTextColor="@color/white"
+        android:orientation="vertical"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ellipsize="marquee"
+        app:theme="@style/MyToolbarTheme"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="307.8dp"
+            android:layout_height="547.2dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="@string/system_info_view" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="@string/coupon_info_view" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.SUGOI.apps.sugoi",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 257,
+        "versionName": "2.5.7",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.SUGOI.apps.sugoi",
+        "split": "",
+        "minSdkVersion": "17"
+      }
+    }
+  ]
+}

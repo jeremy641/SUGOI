@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">187047884328-t5o4s6rls4s7hd6vu64d58sq3al40im4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">187047884328</string>
+    <string name="google_api_key" translatable="false">AIzaSyAhdM-ltpC8Cmb8BaikEvAgTizWXr2j3pk</string>
+    <string name="google_app_id" translatable="false">1:187047884328:android:0642461ebf14c58ec1271d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhdM-ltpC8Cmb8BaikEvAgTizWXr2j3pk</string>
+    <string name="google_storage_bucket" translatable="false">sugoitest01.appspot.com</string>
+    <string name="project_id" translatable="false">sugoitest01</string>
+</resources>

@@ -1,0 +1,961 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.SUGOI.apps.sugoi"
+4    android:versionCode="257"
+5    android:versionName="2.5.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:6:5-81
+11-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:8:5-68
+13-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:9:5-69
+14-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:9:22-66
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:11:5-81
+16-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:12:5-67
+17-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:14:5-76
+19-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:14:22-73
+20    <!-- BroadcastReceiver permission to listen to the network -->
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:18:5-76
+21-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:18:22-73
+22    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+22-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:19:5-79
+22-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:19:22-76
+23    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- Required OpenGL ES 2.0. for Maps V2 -->
+23-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:20:5-68
+23-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:20:22-65
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:21:5-65
+24-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:21:22-62
+25
+26    <uses-feature
+26-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:23:5-25:35
+27        android:glEsVersion="0x00020000"
+27-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:24:9-41
+28        android:required="true" />
+28-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:25:9-32
+29    <uses-feature
+29-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:26:5-28:35
+30        android:name="android.hardware.location"
+30-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:27:9-49
+31        android:required="true" />
+31-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:28:9-32
+32    <uses-feature
+32-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:29:5-31:35
+33        android:name="android.hardware.location.gps"
+33-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:30:9-53
+34        android:required="true" />
+34-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:31:9-32
+35    <uses-feature
+35-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:32:5-34:35
+36        android:name="android.hardware.camera"
+36-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:33:9-47
+37        android:required="true" />
+37-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:34:9-32
+38
+39    <supports-screens
+39-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:36:5-40:39
+40        android:anyDensity="true"
+40-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:37:9-34
+41        android:largeScreens="true"
+41-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:38:9-36
+42        android:normalScreens="true"
+42-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:39:9-37
+43        android:smallScreens="true" />
+43-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:40:9-36
+44
+45    <uses-permission android:name="android.permission.VIBRATE" />
+45-->[com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3d079586bf01168c09d98cb8d63274\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:5-66
+45-->[com.wdullaer:materialdatetimepicker:3.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f3d079586bf01168c09d98cb8d63274\jetified-materialdatetimepicker-3.2.0\AndroidManifest.xml:26:22-63
+46
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
+48        android:name="android.hardware.camera.front"
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
+49        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
+50    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:33:5-35:36
+52        android:name="android.hardware.camera.autofocus"
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:34:9-57
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:35:9-33
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+55        android:name="android.hardware.camera.flash"
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+58        android:name="android.hardware.screen.landscape"
+58-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+59        android:required="false" />
+59-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+60    <uses-feature
+60-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+61        android:name="android.hardware.wifi"
+61-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+62        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+62-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+63    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+63-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+63-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+64    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+64-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+64-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+65
+66    <application
+66-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:42:5-329:19
+67        android:name="com.droideve.apps.sugoi.AppController"
+67-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:43:9-38
+68        android:allowBackup="true"
+68-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:44:9-35
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\df3a2c67dc3deb493f46f230331591d1\core-1.5.0\AndroidManifest.xml:24:18-86
+70        android:icon="@mipmap/ic_launcher"
+70-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:45:9-43
+71        android:label="@string/app_name"
+71-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:46:9-41
+72        android:largeHeap="true"
+72-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:47:9-33
+73        android:networkSecurityConfig="@xml/network_security_config"
+73-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:48:9-69
+74        android:supportsRtl="true"
+74-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:49:9-35
+75        android:theme="@style/AppTheme" >
+75-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:50:9-40
+76        <activity android:name="com.droideve.apps.sugoi.ChartAnalysisActivity" />
+76-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:52:9-68
+76-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:52:19-56
+77        <activity android:name="com.droideve.apps.sugoi.ChartActivity" />
+77-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:53:9-51
+77-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:53:19-48
+78        <activity
+78-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:54:9-56:69
+79            android:name="com.droideve.apps.sugoi.Scan_Qr"
+79-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:55:13-36
+80            android:parentActivityName="com.droideve.apps.sugoi.activities.MainActivity" />
+80-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:56:13-66
+81        <activity
+81-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:57:9-59:62
+82            android:name="com.droideve.apps.sugoi.QR"
+82-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:58:13-31
+83            android:parentActivityName="com.droideve.apps.sugoi.user_coupon_list" />
+83-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:59:13-59
+84        <activity android:name="com.droideve.apps.sugoi.CustomDialog" />
+84-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:60:9-50
+84-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:60:19-47
+85        <activity
+85-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:61:9-63:69
+86            android:name="com.droideve.apps.sugoi.user_coupon_list"
+86-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:62:13-45
+87            android:parentActivityName="com.droideve.apps.sugoi.activities.MainActivity" />
+87-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:63:13-66
+88        <activity android:name="com.droideve.apps.sugoi.CouponActivity" />
+88-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:64:9-52
+88-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:64:19-49
+89        <activity android:name="com.droideve.apps.sugoi.activities.ActivateMerchantAcitivity" />
+89-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:65:9-74
+89-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:65:19-71
+90
+91        <uses-library
+91-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:67:9-69:40
+92            android:name="org.apache.http.legacy"
+92-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:68:13-50
+93            android:required="false" /> <!-- Goolge Maps API Key -->
+93-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:69:13-37
+94        <meta-data
+94-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:70:9-72:52
+95            android:name="com.google.android.geo.API_KEY"
+95-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:71:13-58
+96            android:value="@string/map_api_key0" />
+96-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:72:13-49
+97        <meta-data
+97-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:73:9-75:49
+98            android:name="com.google.android.gms.ads.APPLICATION_ID"
+98-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:74:13-69
+99            android:value="@string/ad_app_id" />
+99-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:75:13-46
+100
+101        <service android:name="com.droideve.apps.sugoi.push_notification_firebase.FirebaseMessagingService" >
+101-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:77:9-81:19
+101-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:77:18-85
+102            <intent-filter>
+102-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:78:13-80:29
+103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+103-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:79:17-78
+103-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:79:25-75
+104            </intent-filter>
+105        </service>
+106        <service android:name="com.droideve.apps.sugoi.push_notification_firebase.FirebaseInstanceIDService" >
+106-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:82:9-86:19
+106-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:82:18-86
+107            <intent-filter>
+107-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:83:13-85:29
+108                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+108-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:84:17-80
+108-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:84:25-77
+109            </intent-filter>
+110        </service>
+111
+112        <activity
+112-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:88:9-91:64
+113            android:name="com.google.android.gms.ads.AdActivity"
+113-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:89:13-65
+114            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+114-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:90:13-122
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:32:13-37
+116            android:theme="@android:style/Theme.Translucent" />
+116-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:91:13-61
+117
+118        <receiver android:name="com.droideve.apps.sugoi.dtmessenger.DCMBroadcastReceiver" >
+118-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:93:9-100:20
+118-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:93:19-67
+119            <intent-filter>
+119-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:94:13-99:29
+120                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+120-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:95:17-97:50
+120-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:96:21-72
+121                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+121-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:98:17-78
+121-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:98:25-75
+122            </intent-filter>
+123        </receiver>
+124
+125        <activity
+125-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:102:9-104:52
+126            android:name="com.droideve.apps.sugoi.activities.IntroSliderActivity"
+126-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:103:13-59
+127            android:screenOrientation="portrait" />
+127-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:104:13-49
+128        <activity
+128-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:105:9-107:52
+129            android:name="com.droideve.apps.sugoi.activities.MessengerActivity"
+129-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:106:13-57
+130            android:screenOrientation="portrait" />
+130-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:107:13-49
+131        <activity
+131-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:108:9-110:52
+132            android:name="com.droideve.apps.sugoi.activities.ReviewsActivity"
+132-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:109:13-55
+133            android:screenOrientation="portrait" />
+133-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:110:13-49
+134        <activity
+134-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:111:9-113:52
+135            android:name="com.droideve.apps.sugoi.activities.OffersListActivity"
+135-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:112:13-58
+136            android:screenOrientation="portrait" />
+136-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:113:13-49
+137        <activity
+137-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:114:9-116:52
+138            android:name="com.droideve.apps.sugoi.activities.ListUsersActivity"
+138-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:115:13-57
+139            android:screenOrientation="portrait" />
+139-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:116:13-49
+140        <activity
+140-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:117:9-119:52
+141            android:name="com.droideve.apps.sugoi.activities.InboxActivity"
+141-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:118:13-53
+142            android:screenOrientation="portrait" />
+142-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:119:13-49
+143        <activity
+143-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:120:9-124:63
+144            android:name="com.wuadam.awesomewebview.AwesomeWebViewActivity"
+144-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:121:13-76
+145            android:configChanges="keyboardHidden|orientation|screenSize"
+145-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:122:13-74
+146            android:hardwareAccelerated="true"
+146-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:123:13-47
+147            android:theme="@style/FinestWebViewTheme.Light" />
+147-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:124:13-60
+148        <activity
+148-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:125:9-128:52
+149            android:name="com.droideve.apps.sugoi.activities.MainActivity"
+149-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:126:13-52
+150            android:configChanges="uiMode"
+150-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:127:13-43
+151            android:screenOrientation="portrait" />
+151-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:128:13-49
+152        <activity
+152-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:129:9-131:52
+153            android:name="com.droideve.apps.sugoi.activities.MapDirectionActivity"
+153-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:130:13-60
+154            android:screenOrientation="portrait" />
+154-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:131:13-49
+155        <activity
+155-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:132:9-134:52
+156            android:name="com.droideve.apps.sugoi.activities.MapStoresListActivity"
+156-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:133:13-61
+157            android:screenOrientation="portrait" />
+157-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:134:13-49
+158        <activity
+158-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:135:9-137:52
+159            android:name="com.droideve.apps.sugoi.activities.AboutActivity"
+159-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:136:13-53
+160            android:screenOrientation="portrait" />
+160-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:137:13-49
+161        <activity
+161-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:138:9-140:52
+162            android:name="com.droideve.apps.sugoi.activities.ProfileActivity"
+162-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:139:13-55
+163            android:screenOrientation="portrait" />
+163-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:140:13-49
+164        <activity
+164-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:141:9-143:52
+165            android:name="com.droideve.apps.sugoi.activities.CategoriesActivity"
+165-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:142:13-58
+166            android:screenOrientation="portrait" />
+166-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:143:13-49
+167        <activity
+167-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:144:9-146:52
+168            android:name="com.droideve.apps.sugoi.activities.ListStoresActivity"
+168-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:145:13-58
+169            android:screenOrientation="portrait" />
+169-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:146:13-49
+170        <activity
+170-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:147:9-149:52
+171            android:name="com.droideve.apps.sugoi.activities.EventsListActivity"
+171-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:148:13-58
+172            android:screenOrientation="portrait" />
+172-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:149:13-49
+173        <activity
+173-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:150:9-152:52
+174            android:name="com.droideve.apps.sugoi.activities.StoresListActivity"
+174-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:151:13-58
+175            android:screenOrientation="portrait" />
+175-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:152:13-49
+176        <activity
+176-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:153:9-155:52
+177            android:name="com.droideve.apps.sugoi.activities.PeopleListActivity"
+177-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:154:13-58
+178            android:screenOrientation="portrait" />
+178-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:155:13-49
+179        <activity
+179-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:156:9-158:52
+180            android:name="com.droideve.apps.sugoi.activities.CustomSearchActivity"
+180-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:157:13-60
+181            android:screenOrientation="portrait" />
+181-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:158:13-49
+182        <activity
+182-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:159:9-161:52
+183            android:name="com.droideve.apps.sugoi.activities.VR_View"
+183-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:160:13-47
+184            android:screenOrientation="portrait" />
+184-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:161:13-49
+185        <activity
+185-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:162:9-170:20
+186            android:name="com.droideve.apps.sugoi.activities.SplashActivity"
+186-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:163:13-54
+187            android:screenOrientation="portrait" >
+187-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:164:13-49
+188            <intent-filter>
+188-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:165:13-169:29
+189                <action android:name="android.intent.action.MAIN" />
+189-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:166:17-69
+189-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:166:25-66
+190
+191                <category android:name="android.intent.category.LAUNCHER" />
+191-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:168:17-77
+191-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:168:27-74
+192            </intent-filter>
+193        </activity>
+194        <activity
+194-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:171:9-173:52
+195            android:name="com.droideve.apps.sugoi.activities.SettingActivity"
+195-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:172:13-55
+196            android:screenOrientation="portrait" />
+196-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:173:13-49
+197        <activity
+197-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:174:9-176:52
+198            android:name="com.droideve.apps.sugoi.activities.SliderActivity"
+198-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:175:13-54
+199            android:screenOrientation="portrait" />
+199-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:176:13-49
+200        <activity
+200-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:177:9-179:52
+201            android:name="com.droideve.apps.sugoi.activities.GalleryActivity"
+201-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:178:13-55
+202            android:screenOrientation="portrait" />
+202-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:179:13-49
+203        <activity
+203-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:180:9-217:20
+204            android:name="com.droideve.apps.sugoi.activities.OfferDetailActivity"
+204-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:181:13-59
+205            android:screenOrientation="portrait" >
+205-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:182:13-49
+206            <intent-filter android:label="@string/_DP_OFFER_MESSAGE" >
+206-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:183:13-216:29
+206-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:183:28-69
+207                <action android:name="android.intent.action.VIEW" />
+207-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:17-69
+207-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:25-66
+208
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:17-76
+209-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:27-73
+210                <category android:name="android.intent.category.BROWSABLE" />
+210-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:17-78
+210-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:27-75
+211                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+212
+213                <data
+213-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+214                    android:host="@string/_DP_HOST_NAME"
+214-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+215                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER"
+215-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+216                    android:scheme="nsapp" />
+216-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+217                <data
+217-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+218                    android:host="@string/_DP_HOST_NAME"
+218-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+219                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER"
+219-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+220                    android:scheme="http" />
+220-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+221                <data
+221-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+222                    android:host="@string/_DP_HOST_NAME"
+222-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+223                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER"
+223-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+224                    android:scheme="https" />
+224-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+225
+226                <!-- WITH INDEX -->
+227                <data
+227-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+228                    android:host="@string/_DP_HOST_NAME"
+228-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+229                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER_INDEX"
+229-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+230                    android:scheme="nsapp" />
+230-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+231                <data
+231-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+232                    android:host="@string/_DP_HOST_NAME"
+232-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+233                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER_INDEX"
+233-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+234                    android:scheme="http" />
+234-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+235                <data
+235-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+236                    android:host="@string/_DP_HOST_NAME"
+236-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+237                    android:pathPrefix="@string/DP_PATH_PREFIX_OFFER_INDEX"
+237-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+238                    android:scheme="https" />
+238-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+239            </intent-filter>
+240        </activity>
+241        <activity
+241-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:218:9-257:20
+242            android:name="com.droideve.apps.sugoi.activities.StoreDetailActivity"
+242-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:219:13-59
+243            android:screenOrientation="portrait" >
+243-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:220:13-49
+244            <intent-filter android:label="@string/_DP_STORE_MESSAGE" >
+244-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:221:13-256:29
+244-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:221:28-69
+245                <action android:name="android.intent.action.VIEW" />
+245-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:17-69
+245-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:25-66
+246
+247                <category android:name="android.intent.category.DEFAULT" />
+247-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:17-76
+247-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:27-73
+248                <category android:name="android.intent.category.BROWSABLE" />
+248-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:17-78
+248-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:27-75
+249                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+250
+251                <data
+251-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+252                    android:host="@string/_DP_HOST_NAME"
+252-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+253                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE"
+253-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+254                    android:scheme="nsapp" />
+254-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+255                <data
+255-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+256                    android:host="@string/_DP_HOST_NAME"
+256-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+257                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE"
+257-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+258                    android:scheme="http" />
+258-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+259                <data
+259-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+260                    android:host="@string/_DP_HOST_NAME"
+260-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+261                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE"
+261-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+262                    android:scheme="https" />
+262-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+263
+264                <!-- WITH INDEX -->
+265                <data
+265-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+266                    android:host="@string/_DP_HOST_NAME"
+266-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+267                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE_INDEX"
+267-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+268                    android:scheme="nsapp" />
+268-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+269                <data
+269-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+270                    android:host="@string/_DP_HOST_NAME"
+270-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+271                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE_INDEX"
+271-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+272                    android:scheme="http" />
+272-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+273                <data
+273-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+274                    android:host="@string/_DP_HOST_NAME"
+274-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+275                    android:pathPrefix="@string/DP_PATH_PREFIX_STORE_INDEX"
+275-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+276                    android:scheme="https" />
+276-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+277
+278                <!-- note that the leading "/" is required for pathPrefix -->
+279            </intent-filter>
+280        </activity>
+281        <activity
+281-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:258:9-296:20
+282            android:name="com.droideve.apps.sugoi.activities.EventDetailActivity"
+282-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:259:13-59
+283            android:screenOrientation="portrait" >
+283-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:260:13-49
+284            <intent-filter android:label="@string/_DP_EVENT_MESSAGE" >
+284-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:261:13-295:29
+284-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:261:28-69
+285                <action android:name="android.intent.action.VIEW" />
+285-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:17-69
+285-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:184:25-66
+286
+287                <category android:name="android.intent.category.DEFAULT" />
+287-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:17-76
+287-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:186:27-73
+288                <category android:name="android.intent.category.BROWSABLE" />
+288-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:17-78
+288-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:187:27-75
+289
+290                <data
+290-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+291                    android:host="@string/_DP_HOST_NAME"
+291-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+292                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT"
+292-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+293                    android:scheme="nsapp" />
+293-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+294                <data
+294-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+295                    android:host="@string/_DP_HOST_NAME"
+295-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+296                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT"
+296-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+297                    android:scheme="http" />
+297-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+298                <data
+298-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+299                    android:host="@string/_DP_HOST_NAME"
+299-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+300                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT"
+300-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+301                    android:scheme="https" />
+301-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+302                <!-- note that the leading "/" is required for pathPrefix -->
+303
+304
+305                <!-- WITH INDEX -->
+306                <data
+306-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+307                    android:host="@string/_DP_HOST_NAME"
+307-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+308                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT_INDEX"
+308-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+309                    android:scheme="nsapp" />
+309-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+310                <data
+310-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+311                    android:host="@string/_DP_HOST_NAME"
+311-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+312                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT_INDEX"
+312-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+313                    android:scheme="http" />
+313-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+314                <data
+314-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:190:17-193:46
+315                    android:host="@string/_DP_HOST_NAME"
+315-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:191:21-57
+316                    android:pathPrefix="@string/DP_PATH_PREFIX_EVENT_INDEX"
+316-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:192:21-70
+317                    android:scheme="https" />
+317-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:193:21-43
+318            </intent-filter>
+319        </activity> <!-- Version 2.0 activities -->
+320        <activity
+320-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:297:9-301:59
+321            android:name="com.droideve.apps.sugoi.activities.V2MainActivity"
+321-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:298:13-54
+322            android:configChanges="uiMode"
+322-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:299:13-43
+323            android:label="@string/title_activity_v2_main"
+323-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:300:13-59
+324            android:theme="@style/AppTheme.NoActionBar" />
+324-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:301:13-56
+325        <activity
+325-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:302:9-304:52
+326            android:name="com.droideve.apps.sugoi.activities.CustomSearchActivity$LoginActivityV2"
+326-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:303:13-76
+327            android:screenOrientation="portrait" />
+327-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:304:13-49
+328        <activity
+328-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:305:9-307:52
+329            android:name="com.droideve.apps.sugoi.activities.CustomSearchActivity$ResultFilterActivity"
+329-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:306:13-81
+330            android:screenOrientation="portrait" />
+330-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:307:13-49
+331        <activity
+331-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:308:9-310:52
+332            android:name="com.droideve.apps.sugoi.customView.AdvancedWebViewActivity"
+332-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:309:13-63
+333            android:screenOrientation="portrait" />
+333-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:310:13-49
+334        <activity
+334-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:311:9-313:52
+335            android:name="com.droideve.apps.sugoi.customView.PaymentWebViewActivity"
+335-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:312:13-62
+336            android:screenOrientation="portrait" />
+336-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:313:13-49
+337        <activity
+337-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:314:9-316:52
+338            android:name="com.droideve.apps.sugoi.booking.views.activities.ServiceOptionsActivity"
+338-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:315:13-76
+339            android:screenOrientation="portrait" />
+339-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:316:13-49
+340        <activity
+340-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:317:9-319:52
+341            android:name="com.droideve.apps.sugoi.booking.views.activities.BookingCheckoutActivity"
+341-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:318:13-77
+342            android:screenOrientation="portrait" />
+342-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:319:13-49
+343        <activity
+343-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:320:9-322:52
+344            android:name="com.droideve.apps.sugoi.booking.views.activities.BookingListActivity"
+344-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:321:13-73
+345            android:screenOrientation="portrait" />
+345-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:322:13-49
+346        <activity
+346-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:323:9-325:52
+347            android:name="com.droideve.apps.sugoi.booking.views.activities.BookingDetailActivity"
+347-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:324:13-75
+348            android:screenOrientation="portrait" />
+348-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:325:13-49
+349        <activity
+349-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:326:9-328:52
+350            android:name="com.droideve.apps.sugoi.activities.FindMyPlaceActivity"
+350-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:327:13-59
+351            android:screenOrientation="portrait" />
+351-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:328:13-49
+352        <activity
+352-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:14:9-20:20
+353            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+353-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:15:13-91
+354            android:exported="false"
+354-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:16:13-37
+355            android:label="@string/places_autocomplete_label"
+355-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:17:13-62
+356            android:theme="@style/PlacesAutocompleteOverlay"
+356-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:18:13-61
+357            android:windowSoftInputMode="adjustResize" >
+357-->[com.google.android.libraries.places:places:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7314df8d1a51c94a50443d8d2bea9458\jetified-places-2.2.0\AndroidManifest.xml:19:13-55
+358        </activity>
+359        <!--
+360             FirebaseMessagingService performs security checks at runtime,
+361             but set to not exported to explicitly avoid allowing another app to call it.
+362        -->
+363        <service
+363-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58a0581c24fbd32323fe5550e9752822\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+364            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+364-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58a0581c24fbd32323fe5550e9752822\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+365            android:exported="false" >
+365-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\58a0581c24fbd32323fe5550e9752822\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+366            <intent-filter android:priority="-500" >
+366-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:78:13-80:29
+367                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+367-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:79:17-78
+367-->D:\SUGOI project TEST\TEST05\Android-2.6\app\src\main\AndroidManifest.xml:79:25-75
+368            </intent-filter>
+369        </service>
+370        <service
+370-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:15:9-21:19
+371            android:name="com.google.firebase.components.ComponentDiscoveryService"
+371-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:16:13-84
+372            android:directBootAware="true"
+372-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+373            android:exported="false" >
+373-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:17:13-37
+374            <meta-data
+374-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:18:13-20:85
+375                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+375-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:19:17-115
+376                android:value="com.google.firebase.components.ComponentRegistrar" />
+376-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d20ef4c7ba5689d334daced0597a14ea\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:20:17-82
+377            <meta-data
+377-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+378                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+378-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+379                android:value="com.google.firebase.components.ComponentRegistrar" />
+379-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+380            <meta-data
+380-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b4a95fc4aebc52bd0c2bfc22f76b8f2\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+381                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+381-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b4a95fc4aebc52bd0c2bfc22f76b8f2\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+382                android:value="com.google.firebase.components.ComponentRegistrar" />
+382-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1b4a95fc4aebc52bd0c2bfc22f76b8f2\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+383            <meta-data
+383-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dd2e0876aea0eb4dd4ef335bea65a71\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+384                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+384-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dd2e0876aea0eb4dd4ef335bea65a71\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+385                android:value="com.google.firebase.components.ComponentRegistrar" />
+385-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2dd2e0876aea0eb4dd4ef335bea65a71\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+386        </service>
+387
+388        <meta-data
+388-->[com.google.maps.android:android-maps-utils:0.4.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\768efcde39ba2a568c7b2db47968ed5a\jetified-android-maps-utils-0.4.4\AndroidManifest.xml:8:9-10:69
+389            android:name="com.google.android.gms.version"
+389-->[com.google.maps.android:android-maps-utils:0.4.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\768efcde39ba2a568c7b2db47968ed5a\jetified-android-maps-utils-0.4.4\AndroidManifest.xml:9:13-58
+390            android:value="@integer/google_play_services_version" />
+390-->[com.google.maps.android:android-maps-utils:0.4.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\768efcde39ba2a568c7b2db47968ed5a\jetified-android-maps-utils-0.4.4\AndroidManifest.xml:10:13-66
+391
+392        <activity
+392-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+393            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+393-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+394            android:excludeFromRecents="true"
+394-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+395            android:exported="false"
+395-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+396            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+396-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+397        <!--
+398            Service handling Google Sign-In user revocation. For apps that do not integrate with
+399            Google Sign-In, this service will never be started.
+400        -->
+401        <service
+401-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+402            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+402-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+403            android:exported="true"
+403-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+404            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+404-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a86f82d561138fda0387ef6f9126bf9f\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+405
+406        <receiver
+406-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:30:9-34:20
+407            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+407-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:31:13-78
+408            android:enabled="true"
+408-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:32:13-35
+409            android:exported="false" >
+409-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+410        </receiver>
+411
+412        <service
+412-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:36:9-39:40
+413            android:name="com.google.android.gms.analytics.AnalyticsService"
+413-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:37:13-77
+414            android:enabled="true"
+414-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:38:13-35
+415            android:exported="false" />
+415-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:39:13-37
+416        <service
+416-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+417            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+417-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+418            android:enabled="true"
+418-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+419            android:exported="false"
+419-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+420            android:permission="android.permission.BIND_JOB_SERVICE" />
+420-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\343770b6a1c6e642b6ba67426fe6c378\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+421
+422        <activity
+422-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+423            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+423-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+424            android:clearTaskOnLaunch="true"
+424-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+425            android:screenOrientation="sensorLandscape"
+425-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+426            android:stateNotNeeded="true"
+426-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+427            android:theme="@style/zxing_CaptureTheme"
+427-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+428            android:windowSoftInputMode="stateAlwaysHidden" />
+428-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e5eed9285ee52b2fd5523d80ddec6d42\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+429
+430        <receiver
+430-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+431            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+431-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+432            android:exported="true"
+432-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+433            android:permission="com.google.android.c2dm.permission.SEND" >
+433-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+434            <intent-filter>
+434-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+435                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+435-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+435-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56a433504f1af59e9c56ed16295625fd\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+436            </intent-filter>
+437        </receiver>
+438
+439        <activity
+439-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9a653001bee53e2f4ed12b839041aeeb\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+440            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+440-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9a653001bee53e2f4ed12b839041aeeb\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+441            android:exported="false"
+441-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9a653001bee53e2f4ed12b839041aeeb\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+442            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+442-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9a653001bee53e2f4ed12b839041aeeb\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+443
+444        <receiver
+444-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+445            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+445-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+446            android:enabled="true"
+446-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+447            android:exported="false" >
+447-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+448        </receiver>
+449
+450        <service
+450-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+451            android:name="com.google.android.gms.measurement.AppMeasurementService"
+451-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+452            android:enabled="true"
+452-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+453            android:exported="false" />
+453-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+454        <service
+454-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+455            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+455-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+456            android:enabled="true"
+456-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+457            android:exported="false"
+457-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+458            android:permission="android.permission.BIND_JOB_SERVICE" />
+458-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e13f6ae9320c9883bf2fe2b08c58464d\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+459
+460        <provider
+460-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+461            android:name="com.google.firebase.provider.FirebaseInitProvider"
+461-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+462            android:authorities="com.SUGOI.apps.sugoi.firebaseinitprovider"
+462-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+463            android:directBootAware="true"
+463-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+464            android:exported="false"
+464-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+465            android:initOrder="100" />
+465-->[com.google.firebase:firebase-common:19.4.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\345da777350f7bf0b032ea84b6eedcdf\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+466        <provider
+466-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:35:9-39:39
+467            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+467-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:36:13-76
+468            android:authorities="com.SUGOI.apps.sugoi.mobileadsinitprovider"
+468-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:37:13-73
+469            android:exported="false"
+469-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:38:13-37
+470            android:initOrder="100" />
+470-->[com.google.android.gms:play-services-ads-lite:17.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\88fb3a64900015afecf6054fc5b4bbdb\jetified-play-services-ads-lite-17.2.0\AndroidManifest.xml:39:13-36
+471        <provider
+471-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7257cbf781df207a35d26fee947fbe60\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+472            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+472-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7257cbf781df207a35d26fee947fbe60\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+473            android:authorities="com.SUGOI.apps.sugoi.lifecycle-process"
+473-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7257cbf781df207a35d26fee947fbe60\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+474            android:exported="false"
+474-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7257cbf781df207a35d26fee947fbe60\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+475            android:multiprocess="true" />
+475-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7257cbf781df207a35d26fee947fbe60\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+476
+477        <service
+477-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+478            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+478-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+479            android:exported="false" >
+479-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+480            <meta-data
+480-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+481                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+481-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+482                android:value="cct" />
+482-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\11d877a170e2bad0344c683978283112\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+483        </service>
+484        <service
+484-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+485            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+485-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+486            android:exported="false"
+486-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+487            android:permission="android.permission.BIND_JOB_SERVICE" >
+487-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+488        </service>
+489
+490        <receiver
+490-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+491            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+491-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+492            android:exported="false" />
+492-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0c80f8b2363e55ddeef2f1c90c31d7fb\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+493
+494        <activity
+494-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:25:9-30:75
+495            android:name="com.yanzhenjie.permission.PermissionActivity"
+495-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:26:13-72
+496            android:configChanges="keyboardHidden|orientation|screenSize"
+496-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:27:13-74
+497            android:launchMode="standard"
+497-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:28:13-42
+498            android:theme="@style/permission_PermissionActivity"
+498-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:29:13-65
+499            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+499-->[com.yanzhenjie:permission:2.0.0-rc4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a1fe8d7ffcf483eda9059c28556a417f\jetified-permission-2.0.0-rc4\AndroidManifest.xml:30:13-72
+500    </application>
+501
+502</manifest>
